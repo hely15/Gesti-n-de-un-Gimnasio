@@ -1,0 +1,29 @@
+{
+  "name": "gym-management-cli",
+  "version": "1.0.0",
+  "description": "Sistema CLI para gestión integral de gimnasio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node scripts/seed-database.js",
+    "test": "jest"
+  },
+  "keywords": ["gym", "fitness"],
+  "author": "Hely",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "dayjs": "^1.11.10",
+    "commander": "^11.1.0",
+    "cli-table3": "^0.6.3",
+    "figlet": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "jest": "^29.7.0"
+  }
+}
